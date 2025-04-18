@@ -1,7 +1,9 @@
 module github.com/go-shiori/shiori
 
 // +heroku goVersion go1.23.6
-go 1.23.6
+go 1.23.1
+
+toolchain go1.23.3
 
 require (
 	git.sr.ht/~emersion/go-sqlite3-fts5 v0.0.0-20240124102820-f3a72e8b79b1
